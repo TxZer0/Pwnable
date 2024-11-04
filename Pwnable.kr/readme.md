@@ -128,7 +128,7 @@
 ![alt text](./images/image-27.png)
 
 # cmd1
--- Phân tích : chương trình thực thi hàm **system** nếu như kết quả trả về của hàm **filter** khi nhận argv[1] làm đối số là lớn hơn 0. Trong hàm filter, sử dụng hàm strstr để tìm các chuỗi con. Điều đặc biệt là khi truyền `whoam\i` thì strstr() xem `\` là 1 kí tự bình thường còn system() diễn giải kí tự `\` . Test -> [test.c](./script/cmd1.c)
+-- Phân tích : chương trình thực thi hàm **system** nếu như kết quả trả về của hàm **filter** khi nhận argv[1] làm đối số là lớn hơn 0. Trong hàm filter, sử dụng hàm strstr để tìm các chuỗi con. Điều đặc biệt là khi truyền `whoam\i` thì strstr() xem `\` là 1 kí tự bình thường còn system() diễn giải kí tự `\` theo quy tắc của shell . Test -> [test.c](./script/cmd1.c)
 
 ![alt text](./images/image-28.png)
 
